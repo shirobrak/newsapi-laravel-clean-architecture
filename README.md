@@ -4,7 +4,7 @@ NewsAPI implemented in Clean Architecture
 
 ## Description
 
-外部サービスから取得したデータを用いて
+外部サービスから取得したデータを用いて
 記事を作成し, 提供するAPIを [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) で実装した例. 
 
 ## Requirement
@@ -32,13 +32,13 @@ This Application is open-sourced software licensed under the [MIT](https://opens
 
 ## 実装方針
 
-今回の実装では, クリーンアーキテクチャの4層は以下のようになった.  
+今回の実装では, クリーンアーキテクチャの4層は以下のようになった.  
 - Entity層：`app/Entities`
 - Service層：`app/Services`
 - Adapter層 :`app/Adapters`, `app/Http/Controllers/`
-- Repository層：`app/Repositories`
+- Repository層：`app/Repositories`
 
-また, `TopicsAPI` の実装に要した作成ファイルは以下の通り.  
+また, `TopicsAPI` の実装に要した作成ファイルは以下の通り.  
 ```
 app/
 ├── Adapters
